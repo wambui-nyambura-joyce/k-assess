@@ -13,14 +13,14 @@ class Login : AppCompatActivity() {
             binding = ActivityLoginBinding.inflate(layoutInflater)
             setContentView(binding.root)
 
-            binding.btnLogin.setOnClickListener {
-                // TODO: Perform login logic here
-            }
-
-            binding.tvSignup.setOnClickListener {
-                startActivity(Intent(this, LoginpageBinding::class.java))
-                finish()
-            }
+//            binding.btnLogin.setOnClickListener {
+//                // TODO: Perform login logic here
+//            }
+//
+//            binding.tvSignup.setOnClickListener {
+//                startActivity(Intent(this, LoginpageBinding::class.java))
+//                finish()
+//            }
         }
     }
-}
+//}
